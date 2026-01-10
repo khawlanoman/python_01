@@ -29,16 +29,14 @@ class SecurePlant:
         self._age =age
 
 
-if __name__ == "__main__":
 
-  print("=== Garden Security System ===")
-  
-  Rose= SecurePlant("Rose",25, 30)
-  print(f"Plant created: {Rose.name}")
-  print(f"Height updated:{Rose._height}cm [ok]")
-  print(f"Age updated:{Rose._age} days[ok]")
-  print("\n")
-  Rose.set_height(-5)
+print("=== Garden Security System ===")
 
-  print(f"\nplant: {Rose.name} ({Rose._height}cm {Rose._age} days) ")
+Rose= SecurePlant("Rose",25, 30)
+print(f"Plant created: {Rose.name}")
+print(f"Height updated:{Rose._height}cm [ok]")
+print(f"Age updated:{Rose._age} days[ok]")
+print("\n")
+Rose.set_height(-5)
+print(f"\nplant: {Rose.name} ({Rose._height}cm {Rose._age} days) ")
  

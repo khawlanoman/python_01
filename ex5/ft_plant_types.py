@@ -33,12 +33,12 @@ class Vegetable(Plant):
         print(f"{self.name}  is {self.harvest_season} in {self.nutritional_value} ")
 
 
-if __name__=="__main__":
-    print(" === Garden Plant Types ===\n")
-    Rose = Flower("Rose",25,30,"red")
-    Rose.bloom()
-    print("\n")
-    Oak = Tree("Oak",500,1825,50)
-    Oak.produce_shade()
-    print("\n")
-    Tomato = Vegetable("Tomato",80,90,"rich" ,"vitamin C")
+
+print(" === Garden Plant Types ===\n")
+Rose = Flower("Rose",25,30,"red")
+Rose.bloom()
+print("\n")
+Oak = Tree("Oak",500,1825,50)
+Oak.produce_shade()
+print("\n")
+Tomato = Vegetable("Tomato",80,90,"rich" ,"vitamin C")
